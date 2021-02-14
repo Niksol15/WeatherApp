@@ -1,7 +1,8 @@
 # Weather
 
 This is a CLI program for getting the current weather by the name of the city or its code.
-Работает на RestAPI [OpenWeatherAPI](https://openweathermap.org/). You need a personal token to use the program
+The program is written in Boost.Asio + Boost.Beast. Works on [OpenWeatherAPI](https://openweathermap.org/).
+You need a personal token to use the program
 
 ## How to get token
 1. Open the following [site](https://home.openweathermap.org/users/sign_up)
@@ -11,11 +12,13 @@ This is a CLI program for getting the current weather by the name of the city or
 5. Your API will be [here](https://home.openweathermap.org/api_keys)
 6. Read the [API doc](https://openweathermap.org/current)
 
-##how to build
+## how to build
+
 `cmake .`
 
 `make`
 
-##how to run
+## how to run
+
 `./WheatherApp`
 
